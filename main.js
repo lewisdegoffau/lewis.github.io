@@ -5,3 +5,4 @@ function animateBg(i) {
     animateBg(++i)
   }, i);
 }
+main();
