@@ -5,6 +5,17 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+function animateBg(i) {
+  document.body.style.backgroundColor = 'hsl(' + i + ', 100%, 50%)';
+
+  setTimeout(function() {
+    animateBg(++i)
+  }, i);
+}
+  
+animateBg(0);
+  
 body, html {
   height: 85%;
 }
