@@ -1,8 +1,6 @@
 div {padding-top: 10px; padding-right: 100px; padding-bottom: 10px; padding-left: 100px;}
 div {
   background-color:rgb(137,207,240);
-  width:100%; height:66.67vh;
-  background:no-repeat center center;
   background-size:cover;
   overflow:hidden;
 }
