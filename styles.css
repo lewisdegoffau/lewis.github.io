@@ -1,6 +1,5 @@
 div {background-color:rgb(137,207,240); /*#89CFF0*/ background-size:cover; overflow:hidden;}
-#loading {
-  position: fixed;
+#loading {position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +8,7 @@ div {background-color:rgb(137,207,240); /*#89CFF0*/ background-size:cover; overf
   top: 0;
   left: 0;
   opacity: 1;
-  background-color: #fff;
+  background-color: #89CFF0;
   z-index: 99;
 }
 #loading-image {
