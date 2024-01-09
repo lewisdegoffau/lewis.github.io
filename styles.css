@@ -8,7 +8,7 @@ div {background-color:rgb(137,207,240); /*#89CFF0*/ background-size:cover; overf
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   background-color: #fff;
   z-index: 99;
 }
