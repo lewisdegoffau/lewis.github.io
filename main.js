@@ -1,9 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-  window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-    loader.classList.add("loader-hidden");
-    loader.addEventListener("transitionend", () => {
-      document.body.removeChild("loader");
-    })
-  })
-})
+var fade_out = function() {
+  $("#loading").fadeOut().empty();
+}
+setTimeout(fade_out, 5000);
