@@ -190,7 +190,12 @@
         You have reached the end of this page. Thank you for visiting!
     </div>
 
-    <script src="main.js"></script>
+    <script>
+        setTimeout(fade_out, 5000);
+        function fade_out() {
+            $("#loading").fadeOut().empty();
+        }
+    </script>
     
 </body>
 
